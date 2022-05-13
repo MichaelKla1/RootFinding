@@ -3,11 +3,6 @@ import math
 import sympy as sp
 x = sp.symbols('x')
 
-polinom = x**4+x**3-3*x**2
-start_point = -3
-end_point = 2
-size_of_small_section = 0.1
-epsilon = 0.0000000001
 
 Newton_Raphson_iterations_limit = 100
 secant_iterations_limit = 100
